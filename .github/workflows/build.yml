@@ -35,6 +35,7 @@ jobs:
 
       - name: Build FireRed
         env:
+          GAME_REVISION: 1
           COMPARE: 0
         run: |
           make -j${nproc} all
