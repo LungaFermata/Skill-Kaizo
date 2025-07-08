@@ -354,3 +354,35 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "I think I'll try looking around\n"
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
+
+PalletTown_Text_WantMeToTeachMove::
+    .string "I'm a POKÉMON MOVE RELEARNER.\p"
+    .string "I know every single move that\n"
+    .string "POKÉMON learn as they grow.\p"
+    .string "Do you want me to teach a move to\n"
+    .string "a POKÉMON of yours?$"
+
+PalletTown_Text_TutorWhichMon::
+    .string "Which POKÉMON needs tutoring?$"
+
+PalletTown_Text_TeachWhichMove::
+    .string "Which move should I teach?$"
+
+PalletTown_Text_NoMoveICanTeachThatMon::
+    .string "Sorry…\p"
+    .string "It doesn't appear as if I have a\n"
+    .string "move I can teach that POKÉMON.$"
+
+PalletTown_Text_CantTeachAnEgg::
+    .string "Hunh? There isn't a single move\n"
+    .string "that I can teach an EGG.$"
+
+PalletTown_Text_ComeBackAgain::
+    .string "Come see me again if you need\n"
+    .string "another move taught to a POKÉMON.$"
+
+PalletTown_Text_SkillShopGreeting::
+	.string "Choose your Items.$"
+
+PalletTown_Text_SkillShopEnd::
+	.string "Good luck on your run!$"

@@ -806,8 +806,6 @@ gStdScriptsEnd::
 
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
-	.include "data/scripts/skill_npc.inc"
-	.include "data/text/skill_npc.inc"
 
 @ Unused
 Text_WouldYouLikeToMixRecords::

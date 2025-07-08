@@ -63,18 +63,53 @@ ViridianForest_EventScript_Charlie::
 	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-ViridianForest_Script_FullShop::
+ViridianForest_EventScript_ChooseMonToTutor::
+    lock
+    faceplayer
+    special ChooseMonForMoveRelearner
+    waitstate
+    goto_if_ge VAR_0x8004, PARTY_SIZE, EventScript_EndTutorMove
+    special IsSelectedMonEgg
+    goto_if_eq VAR_RESULT, TRUE, EventScript_CantTutorEgg
+    goto_if_eq VAR_0x8005, 0, EventScript_NoMoveToTutorMon
+    goto EventScript_ChooseMoveToTeach
+    end
+
+ViridianForest_EventScript_ChooseMoveToTeach::
+    msgbox ViridianForest_Text_TeachWhichMove
+    special TeachMoveRelearnerMove
+    waitstate
+    goto_if_eq VAR_0x8004, 0, EventScript_ChooseMonToTutor
+    goto EventScript_EndTutorMove
+    end
+
+ViridianForest_EventScript_NoMoveToTutorMon::
+    msgbox ViridianForest_Text_NoMoveICanTeachThatMon
+    goto EventScript_ChooseMonToTutor
+    end
+
+ViridianForest_EventScript_CantTutorEgg::
+    msgbox ViridianForest_Text_CantTeachAnEgg
+    goto EventScript_ChooseMonToTutor
+    end
+
+ViridianForest_EventScript_EndTutorMove::
+    msgbox ViridianForest_Text_ComeBackAgain
+    release
+    end
+
+ViridianForest_EventScript_SkillShop::
 	lock
 	faceplayer
-	message ViridianForest_Text_FullShopGreeting
+	message ViridianForest_Text_SkillShopGreeting
 	waitmessage
-	pokemart ViridianForest_Pokemart_FullShop
-	msgbox ViridianForest_Text_FullShopEnd, MSGBOX_DEFAULT
+	pokemart ViridianForest_EventScript_SkillShopItems
+	msgbox ViridianForest_Text_SkillShopEnd, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-ViridianForest_Pokemart_FullShop:
+ViridianForest_EventScript_SkillShopItems::
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_PP_MAX
 	.2byte ITEM_PP_UP
@@ -147,9 +182,3 @@ ViridianForest_Pokemart_FullShop:
 	.2byte ITEM_DEEP_SEA_SCALE
 	.2byte ITEM_BIG_MUSHROOM
 	.2byte ITEM_NONE
-
-ViridianForest_Text_FullShopGreeting:
-	.string "Choose your Items.$"
-
-ViridianForest_Text_FullShopEnd:
-	.string "Good luck on your run!$"
