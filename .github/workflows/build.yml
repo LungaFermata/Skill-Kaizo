@@ -41,6 +41,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-            name: skillmon
-            path: skillmon.gba
+            name: pokefirered
+            path: pokefirered.gba
             retention-days: 1
