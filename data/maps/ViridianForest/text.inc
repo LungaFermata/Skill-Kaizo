@@ -103,34 +103,3 @@ ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
 
-ViridianForest_Text_WantMeToTeachMove::
-    .string "I'm a POKÉMON MOVE RELEARNER.\p"
-    .string "I know every single move that\n"
-    .string "POKÉMON learn as they grow.\p"
-    .string "Do you want me to teach a move to\n"
-    .string "a POKÉMON of yours?$"
-
-ViridianForest_Text_TutorWhichMon::
-    .string "Which POKÉMON needs tutoring?$"
-
-ViridianForest_Text_TeachWhichMove::
-    .string "Which move should I teach?$"
-
-ViridianForest_Text_NoMoveICanTeachThatMon::
-    .string "Sorry…\p"
-    .string "It doesn't appear as if I have a\n"
-    .string "move I can teach that POKÉMON.$"
-
-ViridianForest_Text_CantTeachAnEgg::
-    .string "Hunh? There isn't a single move\n"
-    .string "that I can teach an EGG.$"
-
-ViridianForest_Text_ComeBackAgain::
-    .string "Come see me again if you need\n"
-    .string "another move taught to a POKÉMON.$"
-
-ViridianForest_Text_SkillShopGreeting::
-	.string "Choose your Items.$"
-
-ViridianForest_Text_SkillShopEnd::
-	.string "Good luck on your run!$"
