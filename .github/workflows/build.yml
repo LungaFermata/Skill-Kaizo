@@ -8,9 +8,9 @@ jobs:
     env:
       GAME_VERSION: FIRERED
       GAME_LANGUAGE: ENGLISH
-      GAME_REVISION: 0
+      GAME_REVISION: 1
       MODERN: 0
-      COMPARE: 1
+      COMPARE: 0
     steps:
       - name: Checkout
         uses: actions/checkout@master
@@ -34,11 +34,12 @@ jobs:
         working-directory: ./agbcc
 
       - name: Build FireRed
-        env:
-          GAME_REVISION: 1
-          COMPARE: 0
         run: |
           make -j${nproc} all
+
+      - name: Path Check
+        run: |
+          ls
 
       - uses: actions/upload-artifact@v4
         with:
