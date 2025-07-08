@@ -1311,7 +1311,7 @@ PalletTown_Script_FullShop::
 	end
 
 	.align 2
-PalletTown_Pokemart_FullShop:
+PalletTown_Pokemart_FullShop::
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_PP_MAX
 	.2byte ITEM_PP_UP
@@ -1385,8 +1385,28 @@ PalletTown_Pokemart_FullShop:
 	.2byte ITEM_BIG_MUSHROOM
 	.2byte ITEM_NONE
 
-PalletTown_Text_FullShopGreeting:
-	.string "Choose your Items.$"
+PalletTown_ChooseMonToTutor::
+	lock
+	faceplayer
+	special ChooseMonForMoveRelearner
+	waitstate
+	goto_if_ge VAR_0x8004, PARTY_SIZE, PalletTown_EndTutorMove
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_CantTutorEgg
+	goto PalletTown_ChooseMoveToTeach
+	end
 
-PalletTown_Text_FullShopEnd:
-	.string "Good luck on your run!$"
+PalletTown_ChooseMoveToTeach::
+	special TeachMoveRelearnerMove
+	waitstate
+	goto_if_eq VAR_0x8004, 0, PalletTown_ChooseMonToTutor
+	end
+
+PalletTown_CantTutorEgg::
+	msgbox PalletTown_Text_CantTeachAnEgg
+	goto PalletTown_ChooseMonToTutor
+	end
+
+PalletTown_EndTutorMove::
+	release
+	end
