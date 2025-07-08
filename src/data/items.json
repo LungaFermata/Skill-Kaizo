@@ -371,7 +371,7 @@
     {
       "english": "FULL HEAL",
       "itemId": "ITEM_FULL_HEAL",
-      "price": 600,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A spray-type medicine.\\nIt heals all the status problems of\\none POKéMON.",
@@ -419,7 +419,7 @@
     {
       "english": "FRESH WATER",
       "itemId": "ITEM_FRESH_WATER",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 50,
       "description_english": "Water with a high mineral content.\\nIt restores the HP of one POKéMON\\nby 50 points.",
@@ -435,7 +435,7 @@
     {
       "english": "SODA POP",
       "itemId": "ITEM_SODA_POP",
-      "price": 300,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 60,
       "description_english": "A fizzy soda drink.\\nIt restores the HP of one POKéMON\\nby 60 points.",
@@ -451,7 +451,7 @@
     {
       "english": "LEMONADE",
       "itemId": "ITEM_LEMONADE",
-      "price": 350,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 80,
       "description_english": "A very sweet drink.\\nIt restores the HP of one POKéMON\\nby 80 points.",
@@ -467,7 +467,7 @@
     {
       "english": "MOOMOO MILK",
       "itemId": "ITEM_MOOMOO_MILK",
-      "price": 500,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 100,
       "description_english": "Highly nutritious milk.\\nIt restores the HP of one POKéMON\\nby 100 points.",
@@ -595,7 +595,7 @@
     {
       "english": "MAX ELIXIR",
       "itemId": "ITEM_MAX_ELIXIR",
-      "price": 4500,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 255,
       "description_english": "Fully restores the PP of all moves\\nfor one POKéMON.",
@@ -1011,7 +1011,7 @@
     {
       "english": "HP UP",
       "itemId": "ITEM_HP_UP",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base HP of one\\nPOKéMON.",
@@ -1027,7 +1027,7 @@
     {
       "english": "PROTEIN",
       "itemId": "ITEM_PROTEIN",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base ATTACK stat of\\none POKéMON.",
@@ -1043,7 +1043,7 @@
     {
       "english": "IRON",
       "itemId": "ITEM_IRON",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base DEFENSE stat of\\none POKéMON.",
@@ -1059,7 +1059,7 @@
     {
       "english": "CARBOS",
       "itemId": "ITEM_CARBOS",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base SPEED stat of\\none POKéMON.",
@@ -1075,7 +1075,7 @@
     {
       "english": "CALCIUM",
       "itemId": "ITEM_CALCIUM",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base SP. ATK stat\\nof one POKéMON.",
@@ -1091,7 +1091,7 @@
     {
       "english": "RARE CANDY",
       "itemId": "ITEM_RARE_CANDY",
-      "price": 4800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A candy that is packed with energy.\\nIt raises the level of a POKéMON\\nby one.",
@@ -1107,7 +1107,7 @@
     {
       "english": "PP UP",
       "itemId": "ITEM_PP_UP",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Slightly raises the maximum PP of\\na selected move for one POKéMON.",
@@ -1123,7 +1123,7 @@
     {
       "english": "ZINC",
       "itemId": "ITEM_ZINC",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A nutritious drink for POKéMON.\\nIt raises the base SP. DEF stat\\nof one POKéMON.",
@@ -1139,7 +1139,7 @@
     {
       "english": "PP MAX",
       "itemId": "ITEM_PP_MAX",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the PP of a selected move\\nto its maximum level for one\\nPOKéMON.",
@@ -1171,7 +1171,7 @@
     {
       "english": "GUARD SPEC.",
       "itemId": "ITEM_GUARD_SPEC",
-      "price": 700,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "An item that prevents stat reduction\\namong party POKéMON for five turns\\nafter use.",
@@ -1187,7 +1187,7 @@
     {
       "english": "DIRE HIT",
       "itemId": "ITEM_DIRE_HIT",
-      "price": 650,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the critical-hit ratio of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
@@ -1203,7 +1203,7 @@
     {
       "english": "X ATTACK",
       "itemId": "ITEM_X_ATTACK",
-      "price": 500,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the ATTACK stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
@@ -1219,7 +1219,7 @@
     {
       "english": "X DEFEND",
       "itemId": "ITEM_X_DEFEND",
-      "price": 550,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the DEFENSE stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
@@ -1235,7 +1235,7 @@
     {
       "english": "X SPEED",
       "itemId": "ITEM_X_SPEED",
-      "price": 350,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the SPEED stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
@@ -1251,7 +1251,7 @@
     {
       "english": "X ACCURACY",
       "itemId": "ITEM_X_ACCURACY",
-      "price": 950,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the accuracy stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
@@ -1267,7 +1267,7 @@
     {
       "english": "X SPECIAL",
       "itemId": "ITEM_X_SPECIAL",
-      "price": 350,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "Raises the SP. ATK stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
@@ -1491,7 +1491,7 @@
     {
       "english": "SUN STONE",
       "itemId": "ITEM_SUN_STONE",
-      "price": 2100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is as red as the sun.",
@@ -1507,7 +1507,7 @@
     {
       "english": "MOON STONE",
       "itemId": "ITEM_MOON_STONE",
-      "price": 0,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is as black as the night sky.",
@@ -1523,7 +1523,7 @@
     {
       "english": "FIRE STONE",
       "itemId": "ITEM_FIRE_STONE",
-      "price": 2100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is colored orange.",
@@ -1539,7 +1539,7 @@
     {
       "english": "THUNDERSTONE",
       "itemId": "ITEM_THUNDER_STONE",
-      "price": 2100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt has a thunderbolt pattern.",
@@ -1555,7 +1555,7 @@
     {
       "english": "WATER STONE",
       "itemId": "ITEM_WATER_STONE",
-      "price": 2100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is a clear light blue.",
@@ -1571,7 +1571,7 @@
     {
       "english": "LEAF STONE",
       "itemId": "ITEM_LEAF_STONE",
-      "price": 2100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt has a leaf pattern.",
@@ -1667,7 +1667,7 @@
     {
       "english": "BIG MUSHROOM",
       "itemId": "ITEM_BIG_MUSHROOM",
-      "price": 5000,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A large and rare mushroom.\\nIt is very popular among certain\\npeople.",
@@ -2243,7 +2243,7 @@
     {
       "english": "PERSIM BERRY",
       "itemId": "ITEM_PERSIM_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_CURE_CONFUSION",
       "holdEffectParam": 0,
       "description_english": "When held by a POKéMON, it will be\\nused in battle to lift confusion.",
@@ -2259,7 +2259,7 @@
     {
       "english": "LUM BERRY",
       "itemId": "ITEM_LUM_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_CURE_STATUS",
       "holdEffectParam": 0,
       "description_english": "When held by a POKéMON, it will be\\nused in battle to heal any problem.",
@@ -2275,7 +2275,7 @@
     {
       "english": "SITRUS BERRY",
       "itemId": "ITEM_SITRUS_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_RESTORE_HP",
       "holdEffectParam": 30,
       "description_english": "When held by a POKéMON, it will be\\nused in battle to restore 30 HP.",
@@ -2691,7 +2691,7 @@
     {
       "english": "LIECHI BERRY",
       "itemId": "ITEM_LIECHI_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_ATTACK_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe ATTACK stat in a pinch.",
@@ -2707,7 +2707,7 @@
     {
       "english": "GANLON BERRY",
       "itemId": "ITEM_GANLON_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_DEFENSE_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe DEFENSE stat in a pinch.",
@@ -2723,7 +2723,7 @@
     {
       "english": "SALAC BERRY",
       "itemId": "ITEM_SALAC_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_SPEED_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe SPEED stat in a pinch.",
@@ -2739,7 +2739,7 @@
     {
       "english": "PETAYA BERRY",
       "itemId": "ITEM_PETAYA_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_SP_ATTACK_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe SP. ATK stat in a pinch.",
@@ -2755,7 +2755,7 @@
     {
       "english": "APICOT BERRY",
       "itemId": "ITEM_APICOT_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_SP_DEFENSE_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe SP. DEF stat in a pinch.",
@@ -2771,7 +2771,7 @@
     {
       "english": "LANSAT BERRY",
       "itemId": "ITEM_LANSAT_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_CRITICAL_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it raises\\nthe critical-hit ratio in a pinch.",
@@ -2787,7 +2787,7 @@
     {
       "english": "STARF BERRY",
       "itemId": "ITEM_STARF_BERRY",
-      "price": 20,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_RANDOM_STAT_UP",
       "holdEffectParam": 4,
       "description_english": "When held by a POKéMON, it sharply\\nraises one stat in a pinch.",
@@ -2867,7 +2867,7 @@
     {
       "english": "BRIGHTPOWDER",
       "itemId": "ITEM_BRIGHT_POWDER",
-      "price": 10,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_EVASION_UP",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy.",
@@ -2883,7 +2883,7 @@
     {
       "english": "WHITE HERB",
       "itemId": "ITEM_WHITE_HERB",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_RESTORE_STATS",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nIt restores any lowered stat in\\nbattle. It can be used only once.",
@@ -2899,7 +2899,7 @@
     {
       "english": "MACHO BRACE",
       "itemId": "ITEM_MACHO_BRACE",
-      "price": 3000,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_MACHO_BRACE",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nIt promotes strong growth but\\nlowers SPEED while it is held.",
@@ -2931,7 +2931,7 @@
     {
       "english": "QUICK CLAW",
       "itemId": "ITEM_QUICK_CLAW",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_QUICK_CLAW",
       "holdEffectParam": 20,
       "description_english": "An item to be held by a POKéMON.\\nA light and sharp claw. The holder\\nmay be able to strike first.",
@@ -2963,7 +2963,7 @@
     {
       "english": "MENTAL HERB",
       "itemId": "ITEM_MENTAL_HERB",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_CURE_ATTRACT",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nIt snaps the holder out of\\ninfatuation. It can be used once.",
@@ -2979,7 +2979,7 @@
     {
       "english": "CHOICE BAND",
       "itemId": "ITEM_CHOICE_BAND",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_CHOICE_BAND",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nIt powers up one move, which\\nbecomes the only usable one.",
@@ -2995,7 +2995,7 @@
     {
       "english": "KING'S ROCK",
       "itemId": "ITEM_KINGS_ROCK",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_FLINCH",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nIt may cause the foe to flinch\\nupon taking damage.",
@@ -3011,7 +3011,7 @@
     {
       "english": "SILVERPOWDER",
       "itemId": "ITEM_SILVER_POWDER",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_BUG_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA shiny silver powder that boosts\\nthe power of BUG-type moves.",
@@ -3075,7 +3075,7 @@
     {
       "english": "DEEPSEATOOTH",
       "itemId": "ITEM_DEEP_SEA_TOOTH",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_DEEP_SEA_TOOTH",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nA fang that gleams a sharp silver.\\nIt raises the SP. ATK stat.",
@@ -3091,7 +3091,7 @@
     {
       "english": "DEEPSEASCALE",
       "itemId": "ITEM_DEEP_SEA_SCALE",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_DEEP_SEA_SCALE",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nA scale that shines a faint pink.\\nIt raises the SP. DEF stat.",
@@ -3139,7 +3139,7 @@
     {
       "english": "FOCUS BAND",
       "itemId": "ITEM_FOCUS_BAND",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_FOCUS_BAND",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nThe holding POKéMON may endure an\\nattack, leaving just 1 HP.",
@@ -3171,7 +3171,7 @@
     {
       "english": "SCOPE LENS",
       "itemId": "ITEM_SCOPE_LENS",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_SCOPE_LENS",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nA lens that boosts the critical-hit\\nratio of the holding POKéMON.",
@@ -3187,7 +3187,7 @@
     {
       "english": "METAL COAT",
       "itemId": "ITEM_METAL_COAT",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_STEEL_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA special metallic film that boosts\\nthe power of STEEL-type moves.",
@@ -3235,7 +3235,7 @@
     {
       "english": "LIGHT BALL",
       "itemId": "ITEM_LIGHT_BALL",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_LIGHT_BALL",
       "holdEffectParam": 0,
       "description_english": "An orb to be held by a PIKACHU\\nthat raises the SP. ATK stat.\\nTouching it may cause a shock.",
@@ -3251,7 +3251,7 @@
     {
       "english": "SOFT SAND",
       "itemId": "ITEM_SOFT_SAND",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_GROUND_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA loose, silky sand that boosts the\\npower of GROUND-type moves.",
@@ -3267,7 +3267,7 @@
     {
       "english": "HARD STONE",
       "itemId": "ITEM_HARD_STONE",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_ROCK_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nAn unbreakable stone that boosts\\nthe power of ROCK-type moves.",
@@ -3283,7 +3283,7 @@
     {
       "english": "MIRACLE SEED",
       "itemId": "ITEM_MIRACLE_SEED",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_GRASS_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA seed imbued with life that boosts\\nthe power of GRASS-type moves.",
@@ -3299,7 +3299,7 @@
     {
       "english": "BLACKGLASSES",
       "itemId": "ITEM_BLACK_GLASSES",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_DARK_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA shady-looking pair of glasses\\nthat boosts DARK-type moves.",
@@ -3315,7 +3315,7 @@
     {
       "english": "BLACK BELT",
       "itemId": "ITEM_BLACK_BELT",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_FIGHTING_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA belt that boosts determination\\nand FIGHTING-type moves.",
@@ -3331,7 +3331,7 @@
     {
       "english": "MAGNET",
       "itemId": "ITEM_MAGNET",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_ELECTRIC_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA powerful magnet that boosts the\\npower of ELECTRIC-type moves.",
@@ -3347,7 +3347,7 @@
     {
       "english": "MYSTIC WATER",
       "itemId": "ITEM_MYSTIC_WATER",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_WATER_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA teardrop-shaped gem that boosts\\nthe power of WATER-type moves.",
@@ -3363,7 +3363,7 @@
     {
       "english": "SHARP BEAK",
       "itemId": "ITEM_SHARP_BEAK",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_FLYING_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA long, sharp beak that boosts the\\npower of FLYING-type moves.",
@@ -3379,7 +3379,7 @@
     {
       "english": "POISON BARB",
       "itemId": "ITEM_POISON_BARB",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_POISON_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA small, poisonous barb that boosts\\nthe power of POISON-type moves.",
@@ -3395,7 +3395,7 @@
     {
       "english": "NEVERMELTICE",
       "itemId": "ITEM_NEVER_MELT_ICE",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_ICE_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA piece of ice that repels heat\\nand boosts ICE-type moves.",
@@ -3411,7 +3411,7 @@
     {
       "english": "SPELL TAG",
       "itemId": "ITEM_SPELL_TAG",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_GHOST_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA sinister, eerie tag that boosts\\nGHOST-type moves.",
@@ -3427,7 +3427,7 @@
     {
       "english": "TWISTEDSPOON",
       "itemId": "ITEM_TWISTED_SPOON",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_PSYCHIC_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA spoon imbued with telekinetic\\npower boosts PSYCHIC-type moves.",
@@ -3443,7 +3443,7 @@
     {
       "english": "CHARCOAL",
       "itemId": "ITEM_CHARCOAL",
-      "price": 9800,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_FIRE_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA combustible fuel that boosts the\\npower of FIRE-type moves.",
@@ -3459,7 +3459,7 @@
     {
       "english": "DRAGON FANG",
       "itemId": "ITEM_DRAGON_FANG",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_DRAGON_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA hard and sharp fang that boosts\\nthe power of DRAGON-type moves.",
@@ -3475,7 +3475,7 @@
     {
       "english": "SILK SCARF",
       "itemId": "ITEM_SILK_SCARF",
-      "price": 100,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_NORMAL_POWER",
       "holdEffectParam": 10,
       "description_english": "An item to be held by a POKéMON.\\nA sumptuous scarf that boosts the\\npower of NORMAL-type moves.",
@@ -3555,7 +3555,7 @@
     {
       "english": "LUCKY PUNCH",
       "itemId": "ITEM_LUCKY_PUNCH",
-      "price": 10,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_LUCKY_PUNCH",
       "holdEffectParam": 0,
       "description_english": "A glove to be held by a CHANSEY.\\nIt raises CHANSEY's critical-hit\\nratio.",
@@ -3571,7 +3571,7 @@
     {
       "english": "METAL POWDER",
       "itemId": "ITEM_METAL_POWDER",
-      "price": 10,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_METAL_POWDER",
       "holdEffectParam": 0,
       "description_english": "A fine, hard powder to be held by\\na DITTO.\\nIt raises DITTO's DEFENSE stat.",
@@ -3587,7 +3587,7 @@
     {
       "english": "THICK CLUB",
       "itemId": "ITEM_THICK_CLUB",
-      "price": 500,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_THICK_CLUB",
       "holdEffectParam": 0,
       "description_english": "A hard bone of some sort to be\\nheld by a CUBONE or MAROWAK.\\nIt raises the ATTACK stat.",
@@ -3603,7 +3603,7 @@
     {
       "english": "STICK",
       "itemId": "ITEM_STICK",
-      "price": 200,
+      "price": 1,
       "holdEffect": "HOLD_EFFECT_STICK",
       "holdEffectParam": 0,
       "description_english": "A stick of leek to be held by a\\nFARFETCH'D. It raises FARFETCH'D's\\ncritical-hit ratio.",
