@@ -63,18 +63,18 @@ ViridianForest_EventScript_Charlie::
 	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Script_FullShop::
+ViridianForest_Script_FullShop::
 	lock
 	faceplayer
-	message Text_FullShopGreeting
+	message ViridianForest_Text_FullShopGreeting
 	waitmessage
-	pokemart Pokemart_FullShop
-	msgbox Text_FullShopEnd, MSGBOX_DEFAULT
+	pokemart ViridianForest_Pokemart_FullShop
+	msgbox ViridianForest_Text_FullShopEnd, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-Pokemart_FullShop:
+ViridianForest_Pokemart_FullShop:
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_PP_MAX
 	.2byte ITEM_PP_UP
@@ -148,8 +148,8 @@ Pokemart_FullShop:
 	.2byte ITEM_BIG_MUSHROOM
 	.2byte ITEM_NONE
 
-Text_FullShopGreeting:
+ViridianForest_Text_FullShopGreeting:
 	.string "Choose your Items.$"
 
-Text_FullShopEnd:
+ViridianForest_Text_FullShopEnd:
 	.string "Good luck on your run!$"

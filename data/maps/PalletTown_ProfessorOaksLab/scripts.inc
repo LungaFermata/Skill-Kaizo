@@ -1300,18 +1300,18 @@ PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	releaseall
 	end
 
-Script_FullShop::
+PalletTown_Script_FullShop::
 	lock
 	faceplayer
-	message Text_FullShopGreeting
+	message PalletTown_Text_FullShopGreeting
 	waitmessage
-	pokemart Pokemart_FullShop
-	msgbox Text_FullShopEnd, MSGBOX_DEFAULT
+	pokemart PalletTown_Pokemart_FullShop
+	msgbox PalletTown_Text_FullShopEnd, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-Pokemart_FullShop:
+PalletTown_Pokemart_FullShop:
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_PP_MAX
 	.2byte ITEM_PP_UP
@@ -1385,8 +1385,8 @@ Pokemart_FullShop:
 	.2byte ITEM_BIG_MUSHROOM
 	.2byte ITEM_NONE
 
-Text_FullShopGreeting:
+PalletTown_Text_FullShopGreeting:
 	.string "Choose your Items.$"
 
-Text_FullShopEnd:
+PalletTown_Text_FullShopEnd:
 	.string "Good luck on your run!$"
