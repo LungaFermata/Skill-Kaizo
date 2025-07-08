@@ -37,12 +37,8 @@ jobs:
         run: |
           make -j${nproc} all
 
-      - name: Path Check
-        run: |
-          ls
-
       - uses: actions/upload-artifact@v4
         with:
-            name: pokefirered
-            path: pokefirered.gba
+            name: pokefirered_rev1
+            path: pokefirered_rev1.gba
             retention-days: 1
