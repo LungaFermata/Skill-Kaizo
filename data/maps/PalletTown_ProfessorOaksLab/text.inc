@@ -354,3 +354,13 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "I think I'll try looking around\n"
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
+
+PalletTown_Text_FullShopGreeting::
+	.string "Choose your Items.$"
+
+PalletTown_Text_FullShopEnd::
+	.string "Good luck on your run!$"
+
+PalletTown_Text_CantTeachAnEgg::
+    .string "Hunh? There isn't a single move\n"
+    .string "that I can teach an EGG.$"
