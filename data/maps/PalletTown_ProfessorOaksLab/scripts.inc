@@ -1392,6 +1392,8 @@ PalletTown_Text_FullShopEnd:
 	.string "Good luck on your run!$"
 
 Common_EventScript_MoveRelearner::
+    goto_if_questlog EventScript_ReleaseEnd
+    special QuestLog_CutRecording
     lock
     faceplayer
     msgbox gText_WantMeToTeachMove, MSGBOX_YESNO
